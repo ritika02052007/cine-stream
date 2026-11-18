@@ -6,7 +6,6 @@ Netflix-lite movie explorer built with React + Vite + TMDB.
 1. `npm install`
 2. Copy `.env.example` to `.env` and fill in your keys
 3. `npm run dev`
-
 ## Features
 - Popular movies in a CSS grid (poster, title, year, rating)
 - Debounced search (500ms)

@@ -3,7 +3,7 @@ const KEY = import.meta.env.VITE_TMDB_KEY;
 
 export const IMG_BASE = "https://image.tmdb.org/t/p/w500";
 
-// A v4 Read Access Token is a long JWT; a v3 key is a 32-char string.
+
 async function tmdb(path, params = {}) {
   if (!KEY) throw new Error("Missing VITE_TMDB_KEY. Add it to your .env file.");
 

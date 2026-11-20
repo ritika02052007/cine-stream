@@ -3,7 +3,6 @@ import MovieCard from "../components/MovieCard.jsx";
 
 export default function Favorites() {
   const { favorites } = useFavorites();
-
   return (
     <>
       <h2 className="section-title">My Favorites</h2>

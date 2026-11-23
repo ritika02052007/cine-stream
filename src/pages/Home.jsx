@@ -3,7 +3,6 @@ import useDebounce from "../hooks/useDebounce.js";
 import MovieResults from "../components/MovieResults.jsx";
 import MoodMatcher from "../components/MoodMatcher.jsx";
 import MovieCard from "../components/MovieCard.jsx";
-
 export default function Home() {
   const [input, setInput] = useState("");
   const [moodMovie, setMoodMovie] = useState(null);

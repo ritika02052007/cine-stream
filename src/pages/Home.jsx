@@ -35,7 +35,6 @@ export default function Home() {
       <h2 className="section-title">
         {query ? `Results for "${query}"` : "Popular Movies"}
       </h2>
-
       <MovieResults key={query} query={query} />
     </>
   );
